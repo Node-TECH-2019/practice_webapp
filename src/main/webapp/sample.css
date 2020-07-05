@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/*
+tableタグによるテーブルのつくりかた
+ */
+
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+table tr td {
+  border: 1px solid #000;
+}
+
+/*
+divタグによるテーブルのつくりかた
+ */
+
+div#table {
+  display: table;
+  border-collapse: collapse;
+}
+
+div.table-row {
+  display: table-row;
+}
+
+div.table-cell {
+  display: table-cell;
+  border: 1px solid #000;
+}
+
